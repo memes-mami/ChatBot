@@ -1,0 +1,1143 @@
+{
+        "intents": [
+            
+          {
+            "tag": "greeting",
+            "patterns": [
+              "Hi",
+              "Hii",
+              "Hey",
+              "How are you",
+              "Is anyone there?",
+              "Hello",
+              "Good day"
+            ],
+            "responses": [
+              "Hey there",
+              "Good to see you here, how can I help you?",
+              "Hello, welcome to the chat",
+              "Hi there, what can I do for you?",
+              "Hi there, how can I help?"
+            ]
+          },
+      
+        
+          {
+            "tag": "goodbye",
+            "patterns": ["Bye", "See you later", "Goodbye","Byee"],
+            "responses": [
+              "See you later, thanks for visiting",
+              "Have a nice day",
+              "Bye! Come back again soon."
+            ]
+          },
+      
+          {
+            "tag": "thanks",
+            "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+            "responses": ["Happy to help!", "Any time!", "My pleasure"]
+          },
+      
+          {
+            "tag": "about",
+            "patterns": [
+              "Tell me about the college?",
+              "What do you know about the college?",
+              "What is the name of the college?",
+              "May I know more about the college?",
+              "How can I know about your college?","about college","college details","where is your college"
+      
+            ],
+            "responses": [
+              "National Institute of Technology,Andhra Pradesh (NIT-AP) is an engineering college established in the year 2015 in Tadepalligudem, West Godavari,Andhra Pradesh State, India.National Institute of Technology, Andhra Pradesh is the 31st institution among the chain of NITs started by the Government of India.he campus is located in Tadepalligudem, spread over an area of 178 acres."
+            ]
+        },
+          {
+            "tag": "Student portal",
+            "patterns": [
+              "What is the student portal of NITAP?",
+              "Where can I find student login ?",
+              "Where can i pay fee?"
+            ],
+            "responses": [
+              "The Student portal of NITAP is https://www.nitandhra.ac.in/student/auth/login. You'll get more in it where initially you have to create an account and have to log in the portal."
+            ]
+          },
+      
+          {
+            "tag": "transport",
+            "patterns": [
+              "How to avail transport facility?",
+              "transport department",
+              "where can i get transport details?",
+              "mode of transportation",
+              "how to get to college",
+              "buses for college",
+              "college buses",
+              "bus routes",
+              "list of buses for travelling"
+            ],
+            "responses": [
+              "Students have no permission to use bikes or motorcycles in the campus and they are only  allowed to use cycles in the campus and there is no bus facility in the campus as of now."
+            ]
+          },
+      
+      
+          {
+                  "tag": "name",    
+                  "patterns": [
+                          "name",
+                          "your name",
+                          "do you have a name",
+                          "what are you called",
+                          "what is your name",
+                          "what should I call you",
+                          "whats your name?",
+                          "what are you",
+                          "who are you",
+                          "who is this",
+                          "what am i chatting to",
+                          "who am i taking to",
+                          "what are you"
+                  ],
+                  "responses": [
+                
+                          "I'm NIT-AP ECE's chatbot"
+                          
+                  ]
+          },
+          {
+                  "tag": "hours",
+                  "patterns": [
+                          "timing of college",
+                          "what is college timing",
+                          "working days",
+                          "when are you guys open",
+                          "what are your hours",
+                          "hours of operation",
+                          "when is the college open",
+                          "college timing",
+                          "what about college timing",
+                          "is college open on saturday",
+                          "tell something about college timing",
+                          "what is the college  hours",
+                          "when should i come to college",
+                          "when should i attend college",
+                          "what is my college time",
+                          "college timings",
+                          "timing college"
+                  ],
+                  "responses": [
+                          "College classes start from 9 AM to 5 PM(Mon to Fri).Classes are held according to your department's timetable tentatively."
+                          
+                  ]
+          },
+          {
+                  "tag": "number",
+                  "patterns": [
+      
+                          "more info",
+                          "contact info",
+                          "how to contact college",
+                          "college telephone number",
+                          "college number",
+                          "What is your contact no",
+                          "Contact number?",
+                          "how to call you",
+                          "College phone no?",
+                          "how can i contact you",
+                          "Can i get your phone number",
+                          "how can i call you",
+                          "phone number",
+                          "phone no",
+                          "call"
+                  ],
+                  "responses": [
+                          "You can contact at this website\n <a https://nitandhra.ac.in/dept/ece/contact' target='_blank'>click here</a>"
+                  ],
+                  "context_set": ""
+          },
+          {
+                  "tag": "course",
+                  "patterns": [
+                          "list of courses",
+                          "list of courses offered",
+                          "list of courses offered in NITAP",
+                          "what are the courses offered in your college?",
+                          "courses?",
+                          "courses offered",
+                          "courses offered in NITAP",
+                          "courses you offer",
+                          "branches?",
+                          "courses available at NITAP?",
+                          "branches available at NITAP?",
+                          "what are the courses in NITAP?",
+                          "what are branches in NITAP?",
+                          "what are courses in NITAP?",
+                          "branches available in NITAP?",
+                          "can you tell me the courses available in NITAP?",
+                          "can you tell me the branches available in NITAP?"
+                          
+                  ],
+                  "responses": [
+                          "NITAP offers Computer Science and Engineering (CSE), Electronics and Communication Engineering (ECE),Electrical and Electronics Engineering (EEE), BioTechnology (BT), Chemical Engineering(CHEM), Civil Engineering(CE),Mechanical Engineering(ME),Metallurgical and MaterialS Engineering(MME)"
+                  ],
+                  "context_set": ""
+          },
+          {
+                  "tag": "fees",
+                  "patterns": [
+                          "information about fee",
+                          "information on fee",
+                          "tell me the fee",
+                          "college fee",
+                          "fee per semester",
+                          "what is the fee of each semester",
+                          "what is the fees of each year",
+                          "what is fee",
+                          "what is the fees",
+                          "how much is the fees",
+                          "fees for first year",
+                          "fees",
+                          "about the fees",
+                          "tell me something about the fees"
+                  ],
+                  "responses": [
+                          "You can contact at 094927 43842  or write us at admissions@nitandhra.a.in",
+                          "Refer this https://www.nitandhra.ac.in/main/Admissions/REVISED%20FEE%20STRUCTURE%20FOR%20B.TECH%20PROGRAMME%20A.Y.2023-24%20ONWARDS.pdf"
+                  ],
+                  "context_set": ""
+          },
+          {
+                  "tag": "location",
+                  "patterns": [
+                          "where is the college located",
+                          "college is located at",
+                          "where is college",
+                          "where is college located",
+                          "address of college",
+                          "how to reach college",
+                          "college location",
+                          "college address",
+                          "wheres the college",
+                          "how can I reach college",
+                          "whats is the college address",
+                          "what is the address of college",
+                          "address",
+                          "location"
+                  ],
+                  "responses": [
+                          "NIT-AP is located at  old aerodrome, Near Kondruprolu, Tadepalligudem, Andhra Pradesh 534101"
+                  ],
+                  "context_set": ""
+          },
+          {
+                  "tag": "hostel",
+                  "patterns": [
+                          "hostel facility",
+                          "hostel servive",
+                          "hostel location",
+                          "hostel address",
+                          "hostel facilities",
+                          "hostel fees",
+                          "Does college provide hostel",
+                          "Is there any hostel",
+                          "Where is hostel",
+                          "do you have hostel",
+                          "do you guys have hostel",
+                          "hostel",
+                          "hostel capacity",
+                          "what is the hostel fee",
+                          "how to get in hostel",
+                          "what is the hostel address",
+                          "how far is hostel from college",
+                          "hostel college distance",
+                          "where is the hostel",
+                          "how big is the hostel",
+                          "distance between college and hostel",
+                          "distance between hostel and college"
+                  ],
+                  "responses": [
+                          "NITAP does  provide hostel facility. It has seperate hostels for boys and girls."
+                  ],
+                  "context_set": ""
+          },
+          {
+                  "tag": "event",
+                  "patterns": [
+                          "events organised",
+                          "list of events",
+                          "list of events organised in college",
+                          "list of events conducted in college",
+                          "What events are conducted in college",
+                          "Are there any event held at college",
+                          "Events?",
+                          "functions",
+                          "what are the events",
+                          "tell me about events",
+                          "what about events",
+                          "events in ece",
+                          "ece events",
+                          "what are the events in ece"
+                  ],
+                  "responses": [
+                          "For events \n <a href='https://nitandhra.ac.in/dept/ece/event' target='_blank'>click here</a>"
+
+                  ],
+                  "context_set": ""
+          },
+          {
+                  "tag": "document",
+                  "patterns": [
+                          "document to bring",
+                          "documents needed for admision",
+                          "documents needed at the time of admission",
+                          "documents needed during admission",
+                          "documents required for admission",
+                          "documents required at the time of admission",
+                          "documents required during admission",
+                          "What document are required for admission",
+                          "Which document to bring for admission",
+                          "documents",
+                          "what documents do i need",
+                          "what documents do I need for admission",
+                          "documents needed"
+                  ],
+                  "responses": [
+                          "You can see the required information about the documents to be brought for college admission here https://www.nitandhra.ac.in/main/aannounce.php"
+                  ],
+                  "context_set": ""
+          },
+      
+          {
+                  "tag": "syllabus",
+                  "patterns": [
+                          "Syllabus for ECE",
+                          "Cse syllabus",
+                          "what is the Information Technology syllabus",
+                          "what is the syllabus",
+                          "syllabus",
+                          "timetable",
+                          "what is ECE syllabus",
+                          "syllabus",
+                          "What is next lecture"
+                  ],
+                  "responses": [
+                          "Find it at \n <a href='https://drive.google.com/drive/folders/1_8u7fHY2e9_nKV9FZ2ik0miKMuyopis2' target='_blank'>click here</a>"
+                  ],
+                  "context_set": ""
+          },
+          {
+                  "tag": "library",
+                  "patterns": [
+                          "is there any library",
+                          "library facility",
+                          "library facilities",
+                          "do you have library",
+                          "does the college have library facility",
+                          "college library",
+                          "where can i get books",
+                          "book facility",
+                          "Where is library",
+                          "Library",
+                          "Tell me about library",
+                          "how many libraries"
+                  ],
+                  "responses": [
+                          "NITAP has Central Library which is the heart of the Institute was established in the year 2015. Find more  at  \n <a href='https://www.nitandhra.ac.in/main/library.php' target='_blank'>click here</a>"
+                  ],
+                  "context_set": ""
+          },
+                {
+                  "tag": "canteen",
+                  "patterns": [
+                          "food facilities",
+                          "canteen facilities",
+                          "canteen facility",
+                          "is there any canteen",
+                          "Is there a cafetaria in college",
+                          "Does college have canteen",
+                          "Where is canteen",
+                          "where is cafetaria",
+                          "canteen",
+                          "Cafetaria"
+                  ],
+                  "responses": [
+                          "NITAP has canteen with variety of food available. Dokka Seethamma Canteen which is for everyone"
+                  ],
+                  "context_set": ""
+          },
+
+          {
+                  "tag": "placement",
+                  "patterns": [
+                          "What is college placement",
+                          "Which companies visit in college",
+                          "What is average package",
+                          "companies visit",
+                          "package",
+                          "placement",
+                          "recruitment",
+                          "companies"
+                  ],
+                  "responses": [
+                          "To know about placement visit \n <a href='https://www.nitandhra.ac.in/main/tnp.php' target='_blank'>click here</a>",
+                          "85.81% has been placed for the previous academic year 2023 with an average package of 8.13 LPA and highest package of 44 LPA"
+                  ],
+                  "context_set": ""
+          },
+    
+          {
+                  "tag": "sem",
+                  "patterns": [
+                          "exam dates",
+                          "exam schedule",
+                          "When is semester exam",
+                          "Semester exam timetable",
+                          "sem",
+                          "semester",
+                          "exam",
+                          "when is exam",
+                          "exam timetable",
+                          "exam dates",
+                          "when is semester",
+                          "academic calender",
+                          "sem exams",
+                          "when is sem exams"
+
+                  ],
+                  "responses": [
+                          "Here is the Academic Calendar: \n <a href='https://www.nitandhra.ac.in/main/Announcements/2023/UG/II,%20III%20&%20IV%20B.Tech%20Academic%20Calendar%20(AY%202023-2024).pdf' target='_blank'>click here</a>"
+                  ],
+                  "context_set": ""
+          },
+          {
+                  "tag": " B.Tech admission",
+                  "patterns": [
+                          "what is the process of admission",
+                          "what is the admission process",
+                          "How to take admission in your college",
+                          "What is the process for admission",
+                          "admission",
+                          "admission process"
+                  ],
+                  "responses": [
+                          "Find it at https://www.nitandhra.ac.in/main/btech.php"
+                  ],
+                  "context_set": ""
+          },
+          {
+                  "tag": "facilities",
+                  "patterns": [
+                          "What facilities college provide",
+                          "College facility",
+                          "What are college facilities",
+                          "facilities",
+                          "facilities provided"
+    
+                  ],
+                  "responses": [
+                          "NIT-AP provides fully AC Lab, quality Wi-Fi,central library,sports complex has facilities for indoor games which includes gym too and outdoor games facilities include 1 field for football, 1 field for cricket, 1 field for basketball, 3 standard volleyball courts, 1 athletic track with 400 metres, kabaddi facility, 2 open courts for badminton and 1 open court for ball badminton, medical facility with dispensary."
+    
+    
+                  ],
+                  "context_set": ""
+          },
+         
+          {
+                  "tag": "college intake",
+                  "patterns": [
+                          "max number of students",
+                          "number of seats per branch",
+                          "number of seats in each branch",
+                          "maximum number of seats",
+                          "maximum students intake",
+                          "What is college intake",
+                          "how many stundent are taken in each branch",
+                          "seat allotment",
+                          "seats"
+                  ],
+                  "responses": [
+                          " 8 branches with a total intake with nearly 700 seats"
+                  ],
+                  "context_set": ""
+          },
+          {
+                  "tag": "uniform",
+                  "patterns": [
+                          "college dress code",
+                          "college dresscode",
+                          "what is the uniform",
+                          "can we wear casuals",
+                          "Does college have an uniform",
+                          "Is there any uniform",
+                          "uniform",
+                          "what about uniform",
+                          "do we have to wear uniform"
+                  ],
+                  "responses": [
+                          "NITAP does not have uniform. Students can wear decent outfit and shouldn't be against the dressing standards set by college"
+                  ],
+                  "context_set": ""
+          },
+          {
+                  "tag": "committee",
+                  "patterns": [
+                          "what are the different committe in college",
+                          "different committee in college",
+                          "Are there any committee in college",
+                          "Give me committee details",
+                          "committee",
+                          "how many committee are there in college"
+                  ],
+                  "responses": [
+                          "There are various committe in college you can see at https://www.nitandhra.ac.in/main/"
+                  ],
+                  "context_set": ""
+          },
+          {
+                  "tag": "random",
+                  "patterns": [
+                          
+                          "I love you",
+                          "Will you marry me",
+                          "Do you love me"
+                  ],
+                  "responses": [
+                          "I am not program for this please ask appropriate query"
+                  ],
+                  "context_set": ""
+          },
+          {
+                  "tag": "swear",
+                  "patterns": [
+                          "fuck",
+                          "bitch",
+                          "shut up",
+                          "hell",
+                          "stupid",
+                          "idiot",
+                          "dumb ass",
+                          "asshole",
+                          "fucker"
+                  ],
+                  "responses": [
+                          "please use appropriate language",
+                          "Maintaining decency would be appreciated"
+                  ],
+                  "context_set": ""
+          },
+          {
+                  "tag": "vacation",
+                  "patterns": [
+                          "holidays",
+                          "when will semester starts",
+                          "when will semester end",
+                          "when is the holidays",
+                          "list of holidays",
+                          "about vacations",
+                          "about holidays",
+                          "When is vacation",
+                          "When is holidays",
+                          "how long will be the vacation"
+                  ],
+                  "responses": [
+                          "Please refer academic calendar https://www.nitandhra.ac.in/main/pdf/List%20of%20Holidays%20Calendar%20year%20-%202024.pdf"
+                  ],
+                  "context_set": ""
+          },
+          {
+                  "tag": "salutation",
+                  "patterns": [
+                          "okk",
+                          "okie",
+                          "nice work",
+                          "well done",
+                          "good job",
+                          "thanks for the help",
+                          "Thank You",
+                          "its ok",
+                          "Thanks",
+                          "k",
+                          "ok",
+                          "okay"
+                  ],
+                  "responses": [
+                          "I am glad I helped you",
+                          "welcome, anything else i can assist you with?" 
+    
+                  ],
+                  "context_set": ""
+          },
+          {
+                  "tag": "task",
+                  "patterns": [
+                          "what can you do",
+                          "what are the thing you can do",
+                          "things you can do",
+                          "what can u do for me",
+                          "how u can help me",
+                          "why i should use you",
+                          "how would you help me?"
+                  ],
+                  "responses": [
+                          "I can provide textbooks and previous year question papers's link which directly takes you to the ECE database and I can give details of ECE faculty and many more",
+                          "You can ask me queries related to ECE, and i will try to answer them",
+                          "I'm programmed to answer basic queries regarding  ECE depatment of the college"
+                  ]
+          },
+          {
+                  "tag":"ragging",
+                  "patterns":[
+                          "ragging",
+                          "is ragging practice active in college",
+                          "does college have any antiragging facility",
+                          "is there any ragging cases",
+                          "is ragging done here",
+                          "ragging juniors",
+                          "ragging history",
+                          "ragging incidents"
+                          
+                  ],
+                  "responses": [
+                          "We are Proud to tell you that our college provides ragging free environment.The institution safeguards new entrants from the threat of ragging. An Anti-Ragging Cell has been established by the Institute in this regard. The institution's head oversees the cell together with a number of other senior faculty members that serve on the committee."
+    
+                  ]
+      
+          },
+         
+          {
+    
+              "tag":"Infrastructure",
+                  "patterns":[
+                          "Does your college have library?",
+                          "labs?",
+                          "what about hostels?",
+                          "tell me about your college mess.",
+                          "What kind of booka are avaliable in your library"
+                  ],
+                  "responses":[
+                          " NIT-AP has strong infrastructure that offers students access to central library with all of their academic resources,seperate hostels for boys and girls with one mess for the girls and two for the boys as well as other necessary amenities,Furthermore, it provides classrooms as well as course-based laboratories such as Chemical Technology lab, Engineering Geology lab, Data Structure lab and many more to give adequate resources.",
+                          "For more information please refer "
+    
+                  ]
+          },
+       
+      
+          {
+            "tag": "HOD",
+            "patterns": [
+                "HOD of ECE",
+                "ECE HOD",
+                "hod sir details",
+                "hod sir",
+                "information of hod sir",
+                "hod sir info",
+                "who is hod",
+                "who is hod of ece",
+                "Who is the head of the department?",
+                "who's the head for ece dept",
+                "Explore about your ece hod",
+                "Give info about your college's ECE HOD."
+            ],
+            "responses": [
+                "NAME: Dr. S. Yuvaraj\nM.TECH: Indian Institute of Technology (BHU) Varanasi\nE- MAIL: yuvarajs@nitandhra.ac.in\nPOSITION: Assistant Professor & HOD\nPhD: Indian Institute of Technology Roorkee\nPHONE: +91 8090673100,9149208393\nFor further more information please refer \n <a href='https://nitandhra.ac.in/dept/ece/20165' target='_blank'>click here</a>"
+            ]
+        },
+        
+          {
+            "tag": "Dr. KIRAN KUMAR GURRALA",
+            "patterns": [
+                "who is kiran sir of ece?",
+                "kiran sir details",
+                "kiran sir",
+                "specializations of kiran sir?",
+                "who is the previous hod of ece?",
+                "who deals with communications the best in ece?",
+                "who deals with communication systems in ece dept?",
+                "Who is the previous HOD?"
+            ],
+            "responses": [
+                "NAME: Dr. KIRAN KUMAR GURRALA\nM.TECH: NIT Rourkela\nE- MAIL: kirankumargurrala@nitandhra.ac.in\nPOSITION: Assistant Professor\nPhD: NIT Rourkela\nPHONE: +91 7077166843\nAREAS OF INTEREST: Cooperative Communication in Wireless Networks; Physical Layer Security;"
+            ]
+        },
+        
+        {
+            "tag": "ECE Faculty",
+            "patterns": [
+                "HOW many professors are there?",
+                "How many assistant professors are present?",
+                "Adhoc faculty of ece?",
+                "Names of the members of ECE faculty?",
+                "teachers of ece",
+                "staff of ece dept",
+                "no of teachers in ece",
+                "teachers in ece",
+                "ece faculty"
+            ],
+            "responses": [
+                "You can refer faculty of ECE here:\n <a href='https://nitandhra.ac.in/dept/ece/faculty' target='_blank'>click here</a>"
+            ]
+        },
+        
+        { 
+             "tag":"ECE Question papers",
+             "patterns":[
+                   "Give me minor 1 question papers",
+                   "ece previous Question papers",
+                   "ece mid papers previous",
+                   "ece end papers previous",
+                   "Previous year ECE papers",
+                   "All ECE question papers"
+              ],       
+             "responses":["you can refer the previous question papers here: \n <a href='https://drive.google.com/drive/folders/1w3Dwgv7hOoVDsA6WG7emv_0cyec0SGay' target='_blank'>click here</a>"]
+    
+        },
+        { 
+            "tag":"Data Structures and Algorithms",
+            "patterns":[ 
+                 "Who teaches DSA",
+                 "who teaches Data Structures and Algorithms",
+                 "dsa",
+                 "DSA",
+                 "how many credits DSA has?",
+                 "how many credits for the subject dsa",
+                 "Say about DSA subject in the 2-2sem",
+                 "Course code for DSA?",
+                 "Subject code for DSA"
+            ],
+            "responses":[
+                 "The subject code for this subject is CS285 \n It's a 4 credit course\n  Currently in this sem, DSA is being taught by MR.Mani Prasad Chittiboyina"                
+                
+            ],
+            "context_set": ""
+    
+        },
+        { 
+            "tag":"Electonic Devices and Circuits-2 or EDC-2",
+            "patterns":[
+                 "Who teaches EDC-2",
+                 "Who teaches EDC2",
+                 "who teaches Electonic Devices and Circuits-2 ",
+                 " WHO teaches Electonic Devices and Circuits2",
+                 "Electonic Devices and Circuits-2",
+                 "Electonic Devices and Circuits2",
+                 "how many credits Electonic Devices and Circuits-2 has?",
+                 "how many credits Electonic Devices and Circuits2 has?",
+                 "edc2",
+                 "EDC -2",
+                 "edc",
+                 "how many credits for the subject edc",
+                 "Say about edc subject in the 2-2sem"
+            ],
+            "responses":[
+                "It's a 3 credit course \n The subject code for this subject is EC251 \n Currently in this sem, EDC-2 is being taught by Dr.N.Praveena."           
+            ],
+            "context_set": ""
+    
+        },
+        { 
+            "tag":"PTSP or Probability theory and stochastic processes",
+            "patterns":[ 
+                 "Who teaches ptsp",
+                 "who teaches Probability theory and stochastic processes",
+                 "PTSP",
+                 "ptsp",
+                 "how many credits ptsp has?",
+                 "how many credits for the subject ptsp",
+                 "Say about ptsp subject in the 2-2sem",
+                 "Course code for ptsp?",
+                 "Subject code for ptsp"
+    
+            ],
+            "responses":[
+                "Currently in this sem, PTSP is being taught by Dr.A.Krishna Chaitanya \n It's a 3 credit course\nThe subject code for this subject is EC252"
+    
+    
+            ],
+            "context_set": ""
+    
+        },
+        { 
+            "tag":"Digital Signal Processing or DSP",
+            "patterns":[
+                 "Who teaches DSP",
+                 "who teaches Digital Signal ProcessinG",
+                 "dsp",
+                 "DSP",
+                 "how many credits DSP has?",
+                 "how many credits for the subject dsP",
+                 "Say about DSA subject in the 2-2sem",
+                 "Course code for DSP?",
+                 "Subject code for DSP"
+    
+            ],
+            "responses":[
+                "Currently in this sem, DSP is being taught by Dr.V.Prakash Singh\nIt's a 3 credit course\nThe subject code for this subject is EC253."
+            ],
+            "context_set": ""
+    
+        },
+        { 
+            "tag":"Transmission Lines and Electomagic waves or Transmission lines",
+            "patterns":[
+                 "Who teaches Transmission Lines and Electomagnetic waves",
+                 "who teaches Transmission Lines",
+                 "tl",
+                 "Transmission Lines and Electomagnetic waves",
+                 "Transmission Lines",
+                 "how many credits Transmission Lines has?",
+                 "how many credits for the subject Transmission Lines",
+                 "Say about Transmission Lines subject in the 2-2sem",
+                 "Course code for Transmission Lines?",
+                 "Subject code for Transmission Lines"
+    
+            ],
+            "responses":[
+                "Currently in this sem, Transmission Lines is being taught by Dr.S.Yuvraj for seca and Dr.Bolli Sridhar for secB\nIt's a 3 credit course\nThe subject code for this subject is EC254."
+    
+            ],
+            "context_set": ""
+    
+        },
+        {   "tag":"Digital Signal Processing lab or DSP lab",
+            "patterns":[
+                 "Who teaches DSP lab",
+                 "who teaches Digital Signal ProcessinG lab",
+                 "dsp lab",
+                 "DSP lab",
+                 "how many credits DSP lab has?",
+                 "how many credits for the subject dsP lab",
+                 "Say about DSP lab subject in the 2-2sem",
+                 "Course code for DSP lab?",
+                 "Subject code for DSP lab"
+    
+            ],
+            "responses":[
+                "Currently in this sem, for the course DSP Lab Mr.Kondal Rao Jyothi for secA and Dr.V.Prakash Singh for secB are taking the responsibility\nIt's a 2 credit course\nThe subject code for this subject is EC256."
+            ],
+    
+             "context_set": ""
+    
+        },
+        { 
+            "tag":"CMOS VSLI Design",
+            "patterns":[ 
+                 "Who teaches CMOS ",
+                 "who teaches VLSI",
+                 "CMOS",
+                 "VLSI",
+                 "how many credits CMOS has?",
+                 "how many credits for the subject CMOS",
+                 "Say about DSA subject in the 3-2sem",
+                 "Course code for CMOS?",
+                 "Subject code for CMOS"
+    
+            ],
+            "responses":[
+                "Currently in this sem, CMOS is being taught by Mr.Ch. Chaitanya Krishna\n It's a 3 credit course\n The subject code for this subject is EC351."
+            ],
+            "context_set": ""
+    
+        },
+        { 
+            "tag":"Embedded and Real time operating systems or ES",
+            "patterns":[
+                 "Who teaches Embedded and Real time operating systems",
+                 "who teaches Embedded Systems",
+                 "Embedded systems",
+                 "Embedded and Real time operating systems",
+                 "how many credits ES has?",
+                 "how many credits for the subject Embedded and Real time operating systems",
+                 "Say about Embedded and Real time operating systems subject in the 3-2sem",
+                 "Course code for Embedded and Real time operating systems?",
+                 "Subject code for Embedded and Real time operating systems",
+                 "Course code for Embedded systems?",
+                 "Subject code for Embedded systems"
+    
+    
+    
+            ],
+            "responses":[
+                "Currently in this sem, Embedded systems is being taught by Dr.B.Thulasya Naik\nIt's a 3 credit course\nThe subject code for this subject is EC352."
+    
+            ],
+            "context_set": ""
+    
+        },
+        { 
+            "tag":"ITC or Information Theory and coding",
+            "patterns":[
+                 "Who teaches ITC",
+                 "who teaches Information Theory and coding",
+                 "Information Theory and coding",
+                 "ITC",
+                 "how many credits ITC has?",
+                 "how many credits for the subject ITC",
+                 "Say about  ITC subject in the 3-2sem",
+                 "Course code for ITC?",
+                 "Subject code for ITC"
+    
+            ],
+            "responses":[
+                "Currently in this sem\n ITC is being taught by Dr.B.Narsimha Rao and Dr.A.Arun Kumar\nIt's a 3 credit course\n The subject code for this subject is EC353."
+    
+            ],
+            "context_set": ""
+    
+        },
+        { 
+            "tag":"Optimization Techniques",
+            "patterns":[
+                 "Who teaches Optimization Techniques",
+                 "who teaches DE1",
+                 "Optimization Techniques",
+                 "DE1",
+                 "how many credits Optimization Techniques has?",
+                 "how many credits for the subject Optimization Techniques",
+                 "Say about optimization techniques subject in the 3-2sem",
+                 "Course code for Optimization Techniques?",
+                 "Subject code for Optimization Techniques"
+    
+            ],
+            "responses":[
+                "Currently in this sem, Optimization Techniques is being taught by Dr.P Kishore Kumar\nIt's a 3 credit course\nThe subject code for this subject is EC362."
+    
+            ],
+            "context_set": ""
+    
+        },
+        { 
+            "tag":"Computer Architectures",
+            "patterns":[
+                 "Who teaches Computer Architectures",
+                 "who teaches COA",
+                 "Computer Architectures",
+                 "Computer architectures",
+                 "how many credits Computer Architectures has?",
+                 "how many credits for the subject Computer Architectures",
+                 "Say about coa subject in the 3-2sem",
+                 "Course code for Computer Architectures?",
+                 "Subject code for Computer Architectures"
+    
+            ],
+            "responses":[
+                 "Currently in this sem, Computer Architectures is being taught by Mr.Sanath Kumarz Tulsi\nIt's a 3 credit course\nThe subject code for this subject is EC364."
+    
+    
+            ],
+            "context_set": ""
+    
+        },
+        {
+            "tag": "Optical Communication or OC",
+            "patterns": [
+                "Who teaches Optical Communication",
+                "who teaches OC",
+                "Optical Communication",
+                "OC",
+                "how many credits Optical Communication has?",
+                "how many credits for the subject OC",
+                "Say about oc subject in the 3-2 sem",
+                "Course code for Optical Communication?",
+                "Subject code for Optical Communication"
+            ],
+            "responses": [
+                "Currently in this sem, Computer Architectures is being taught by Dr. G Kiran Kumar\nIt's a 3 credit course\nThe subject code for this subject is EC366."
+            ],
+            "context_set": ""
+        },
+        
+        { 
+            "tag":"Communication Systems Lab or 3-2 lab",
+            "patterns":[
+                  "Who teaches Communication Systems Lab",
+                 "who teaches 3-2 lab",
+                 "Communication Systems Lab",
+                 "3-2 lab",
+                 "how many credits Communication Systems Lab has?",
+                 "how many credits for the subject Communication Systems Lab",
+                 "Say about Communication Systems Lab subject in the 3-2sem",
+                 "Course code for Communication Systems Lab?",
+                 "Subject code for Communication Systems Lab"
+    
+            ],
+            "responses":[
+                "Currently in this sem, for the course COmmunication lab Dr.A Arun Kumar for secA and Dr.M.Anand Kumar for secB are taking the responsibility\nIt's a 2 credit course\nThe subject code for this subject is EC366"
+    
+            ],
+            "context_set": ""
+    
+        },
+        
+        { 
+            "tag":" EDC-2 lab",
+            "patterns":[
+                 "Who teaches EDC-2 lab",
+                 "Who teaches EDC2 lab",
+                 "who teaches Electonic Devices and Circuits-2 lab",
+                 " WHO teaches Electonic Devices and Circuits2 ",
+                 "Electonic Devices and Circuits-2 lab",
+                 "Electonic Devices and Circuits2 lab",
+                 "how many credits Electonic Devices and Circuits-2 lab has?",
+                 "how many credits Electonic Devices and Circuits2 lab has?",
+                 "edc2",
+                 "EDC -2",
+                 "how many credits for the subject edc lab",
+                 "Say about edc subject in the 2-2sem"
+            ],
+            "responses":[
+                "Currently in this sem, for the course EDC-2 Lab  Dr.N.Praveena for secA and Mr.E.Raghuveera for secB are taking the responsibility\nIt's a 2 credit course\nThe subject code for this subject is EC255"]
+    
+    
+        },
+        {
+             "tag": "THULASYA NAIK SIR",  
+             "patterns": [
+    
+                   "embedded systems sir",
+                   "thulasya naik sir details",
+                   "thulasya sir contact no",
+                   "microcontroller sir",
+                   "mc sir",
+                   "dr thulasya naik sir details",
+                   "es sir contact no"
+               ],
+              "responses": [
+                   "You can find details of Dr.Thulasya Naik Sir here:\n <a href='https://nitandhra.ac.in/dept/ece/22929' target='_blank'>click here</a>"
+               ],
+               "context_set": ""
+          },
+          {
+             "tag": "Mrs.Dhanasree J ",  
+             "patterns": [
+    
+                   "Dhanasree mam details",
+                   "Dhanasree mam contact no",
+                   "Dhanasree mam mail"
+               ],
+              "responses": [
+                   "You can find details of Mrs.Dhanasree J Mam here:\n <a href='https://nitandhra.ac.in/dept/ece/22844' target='_blank'>click here</a>"
+               ],
+               "context_set": ""
+     
+          } ,
+         {
+              "tag": "data base",
+              "patterns":["data base link","where can i find all resources for ece","resources","ece data base","resources of ece"
+
+    
+              ],
+              "responses": [ 
+                "you can find all resources for ece here:\n <a href='https://drive.google.com/drive/folders/17NQ424HqeLTYIK_w3P8VwpRwNMwGn88q' target='_blank'>click here</a>"
+              ],
+              "context_set": ""
+    
+         } ,
+         { 
+             "tag": " ece Faculty room no",
+             "patterns":[
+                 "what's the floor number of ece faculty",
+                 "where will the faculty be during the college timings",
+                 "ece hod room no:?",
+                 "ece department teachers room no",
+                 "ece faculty room no","sir room no",
+                 "room no"
+              ],
+              "responses": [  
+                 "The ECE faculty members are mostly available at the 2nd floor during the college timings "
+              ],
+              "context_set": ""
+    
+    
+         } ,
+
+         { 
+
+              "tag": "interactions",
+              "patterns":[
+                  "how can we interact with seniors?",
+                  "how to get information from seniors ",
+                  "any events with seniors",
+                  "meet with seniors",
+                  "can we get in touch with seniors"
+    
+              ],
+              "responses": [
+                  "The ECE association helds events regularly where we get a chance to interact with them." 
+              ],
+              "context_set": ""
+    
+    
+         }   ,
+         { 
+             "tag": "ECE Association",
+              "patterns":[
+                   "what is ece association",
+                   "who are the members of ece association",
+                   "How can i join ece association",
+                   "tell me about ece association",
+                   "say something about ece association"
+              ],
+              "responses": [ 
+                  "ECE association is formed to provide a platform for the students to interact with technical and non-technical stalwarts of different field.it includes the students only which is led by secretaries.for further information please visit https://nitandhra.ac.in/dept/ece/assoc"
+              ],
+              "context_set": ""
+    
+    
+         } ,
+         { 
+             "tag": "ECE herald",
+              "patterns":[
+                   "what is ece herald",
+                   "who are the members of ece herald",
+                   "How can i join ece herald",
+                   "tell me about ece herald",
+                   "say something about ece herald",
+                   "ece herald"
+
+              ],
+              "responses": [ 
+                  "ECE herald is formed for discovering and helping in exhibiting the talents of the students through the newsletter.It helps in Changing the different sections of the newsletter with the relevant information with respect to time and latest trends.For more details please visit:\nhttps://nitandhra.ac.in/dept/ece/herald"
+              ],
+              "context_set": ""
+    
+    
+         },
+         {
+             "tag": "reference books",
+              "patterns":[
+                   "books for reference",
+                   "text books",
+                   "what books we have to follow",
+                   "books links",
+                   "where can i find books",
+                   "send dsp books",
+                   "books",
+                   "reference books",
+                   "ece books",
+                   "books for ece"
+                   
+
+              ],
+              "responses": [ 
+                "You can find any ECE books here:\n <a href='https://drive.google.com/drive/folders/1-PaDxQRv1oLprvBAeOzTDBpQrM0nijxj' target='_blank'>click here</a>"
+              ],
+              "context_set": ""
+    
+    
+         },
+         {
+                "tag": "CGPA ",
+                "patterns":["results","where can i see my cgpa","my sem results","sem results","my sgpa this sem","cgpa","sgpa"
+  
+      
+                ],
+                "responses": [ 
+                  "you can enter your first year roll no and password here:\n <a href='https://www.nitandhra.ac.in/student/auth/login' target='_blank'>click here</a>"
+                ],
+                "context_set": ""
+      
+           } 
+
+    ]}
